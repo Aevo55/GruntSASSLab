@@ -1,0 +1,21 @@
+@use "variables" as *;
+
+body {
+  padding: 8vw 15vw;
+  background-color: #f7f7f7;
+}
+a {
+  color: $color__link;
+  &:hover {
+    color: $color__link-hover;
+  }
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .col {
+    flex-basis: 50%;
+  }
+}
